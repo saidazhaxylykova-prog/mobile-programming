@@ -1,0 +1,7 @@
+{
+  "app_title": "Lab 8 - Localization",
+  "welcome": "Welcome!",
+  "change_language": "Change Language",
+  "hello": "Hello, Saida!",
+  "description": "This app demonstrates the use of constants and easy_localization for multilingual support."
+}
