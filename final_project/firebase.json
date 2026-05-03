@@ -1,0 +1,33 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "saidagram-saida-2026",
+          "appId": "1:79391894117:android:82bbf6450277fc6cfbb48c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "saidagram-saida-2026",
+          "configurations": {
+            "android": "1:79391894117:android:82bbf6450277fc6cfbb48c",
+            "ios": "1:79391894117:ios:c02d1af6aec40985fbb48c"
+          }
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "saidagram-saida-2026",
+          "appId": "1:79391894117:ios:c02d1af6aec40985fbb48c",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      }
+    }
+  }
+}
